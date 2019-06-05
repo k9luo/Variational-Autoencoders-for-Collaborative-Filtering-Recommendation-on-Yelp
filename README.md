@@ -1,5 +1,5 @@
 # Recommendation-On-Yelp-Dataset
-This repo implements and evaluates Nearest Neighbor and Variational Autoencoders for Collaborative Filtering models on Yelp Academic Dataset. 
+This repo implements and evaluates Variational Autoencoders for Collaborative Filtering model and Nearest Neighbor approach on Yelp Academic Dataset. 
 
 # Example Commands
 
