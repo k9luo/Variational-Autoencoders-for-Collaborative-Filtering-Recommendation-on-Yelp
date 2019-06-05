@@ -1,4 +1,5 @@
 # Recommendation-On-Yelp-Dataset
+This repo implements and evaluates Nearest Neighbor and Variational Autoencoders for Collaborative Filtering models on MovieLens 1M and Yelp Academic Dataset. 
 
 # Example Commands
 
@@ -25,3 +26,7 @@ python tune_parameters.py --path data/yelp/ --save_path vae_tuning.csv --grid co
 ```
 python final_performance.py --path data/yelp/ --problem yelp --name final_result.csv
 ```
+
+### Reference
+* Variational Autoencoders for Collaborative Filtering [[paper]](https://arxiv.org/pdf/1802.05814.pdf)
+* Noise Contrastive Estimation for Scalable Linear Models for One-Class Collaborative Filtering [[paper]](https://arxiv.org/pdf/1811.00697.pdf)
