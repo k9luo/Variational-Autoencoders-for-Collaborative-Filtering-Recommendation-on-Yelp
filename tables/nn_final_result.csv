@@ -1,0 +1,2 @@
+model,rank,lambda,epoch,corruption,topK,MAP@10,MAP@15,MAP@20,MAP@50,Precision@10,Precision@15,Precision@20,Precision@50,R-Precision,Recall@10,Recall@15,Recall@20,Recall@50,metric
+NN,,,,,"[10, 15, 20, 50]","[0.0049, 0.0025]","[0.0061, 0.0032]","[0.0078, 0.004]","[0.0193, 0.0098]","[0.0077, 0.0038]","[0.0108, 0.0056]","[0.0156, 0.0081]","[0.0386, 0.0196]","[0.3812, 0.2269]","[0.0009, 0.0005]","[0.0013, 0.0008]","[0.0019, 0.0011]","[0.0047, 0.0028]","['R-Precision', 'Precision', 'Recall', 'MAP']"
