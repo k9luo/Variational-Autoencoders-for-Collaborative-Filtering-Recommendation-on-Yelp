@@ -38,9 +38,6 @@ def main(args):
                                       rank=args.rank, corruption=args.corruption)
     Y = Yt.T
 
-#    prediction = RQ.dot(Y.T).todense()
-
-#    '''
     progress.section("Predict")
     prediction = predict(matrix_U=RQ,
                          matrix_V=Y,
@@ -48,7 +45,7 @@ def main(args):
                          topK=args.topk,
                          matrix_Train=R_train,
                          gpu=args.gpu)
-#    '''
+
     if args.validation:
         progress.section("Create Metrics")
         start_time = time.time()
